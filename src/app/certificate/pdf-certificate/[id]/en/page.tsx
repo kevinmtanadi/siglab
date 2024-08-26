@@ -5,7 +5,7 @@ import Logo from "../../../../../../public/siglogomenu.png";
 import Image from "next/image";
 import PDFDownloader from "@/app/pdfDownloader";
 
-const page = ({ params }: { params: { id: string } }) => {
+const Page = ({ params }: { params: { id: string } }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [isDecaying, setIsDecaying] = useState(false);
   useEffect(() => {
@@ -44,4 +44,4 @@ const page = ({ params }: { params: { id: string } }) => {
   );
 };
 
-export default page;
+export default Page;
