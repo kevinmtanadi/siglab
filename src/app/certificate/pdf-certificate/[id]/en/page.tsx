@@ -36,8 +36,8 @@ const Page = ({ params }: { params: { id: string } }) => {
   return (
     <PDFDownloader
       id={
-        ["634214", "634239", "634227", "634232"].includes(params.id)
-          ? (params.id as "634214" | "634239" | "634227" | "634232")
+        ["634214", "634219", "634227", "634232"].includes(params.id)
+          ? (params.id as "634214" | "634219" | "634227" | "634232")
           : "634214"
       }
     />

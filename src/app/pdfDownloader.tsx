@@ -3,15 +3,15 @@ import React, { useEffect } from "react";
 import Complete from "../../public/completed.png";
 
 interface Props {
-  id: "634214" | "634239" | "634227" | "634232";
+  id: "634214" | "634219" | "634227" | "634232";
 }
 
 const PDFDownloader = ({ id }: Props) => {
   const idMapper = {
-    "634214": "/SIG.LHP.VI.2024.031718162.pdf",
-    "634239": "/SIG.LHP.VI.2024.031718162.pdf",
+    "634214": "/SIG.LHP.VI.2024.031718161.pdf",
+    "634219": "/SIG.LHP.VI.2024.031718162.pdf",
     "634227": "/SIG.LHP.VI.2024.210923321.pdf",
-    "634232": "/SIG.LHP.VI.2024.031718161.pdf",
+    "634232": "/SIG.LHP.VI.2024.210923322.pdf",
   };
 
   useEffect(() => {
